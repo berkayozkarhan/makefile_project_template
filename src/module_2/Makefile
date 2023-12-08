@@ -43,7 +43,7 @@ check_vars:
 	echo PROJECT_MODULE_DIR: $(PROJECT_MODULE_DIR)
 	echo PROJECT_LIB_DIR: $(PROJECT_LIB_DIR)
 	echo PROJECT_DYNAMIC_LIB_DIR: $(PROJECT_DYNAMIC_LIB_DIR)
-	
+
 	echo ##### CONSTANTS #####
 
 	echo ##### DIRECTORIES #####
@@ -51,9 +51,9 @@ check_vars:
 	echo CURRENT_DIRECTORY: $(CURRENT_DIRECTORY)
 	echo MODULE_SRC_DIRECTORY: $(MODULE_SRC_DIRECTORY)
 	echo MODULE_INCLUDE_DIRECTORY: $(MODULE_INCLUDE_DIRECTORY)
-	
+
 	echo ##### DIRECTORIES #####
-	
+
 	echo MODULE_NAME: $(MODULE_NAME)
 
 	echo ##### PROPERTIES - TARGETS - TO CREATE #####
@@ -61,7 +61,7 @@ check_vars:
 	echo SRC_1: $(SRC_1)
 	echo OBJ_1: $(OBJ_1)
 	echo ##### PROPERTIES - TARGETS - TO CREATE #####
-	
+
 	echo TARGET: $(TARGET)
 
 	echo ##### COMPILER FLAGS #####
